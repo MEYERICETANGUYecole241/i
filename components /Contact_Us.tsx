@@ -21,7 +21,7 @@ export default function Contact_Us() {
 
       <div className="mt-6">
         <textarea
-          rows="4"
+          rows= {4}
           placeholder="Message*"
           className="w-full border p-2 outline-none"
         ></textarea>
