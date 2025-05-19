@@ -19,15 +19,15 @@ return (
         {/* Nom de la startup, stylisé */}
         <h1 className="text-xl font-bold text-blue-700"> RIVERSIDE </h1>
 
-        {/* SECTION 2 : Liens de navigation (visibles uniquement sur écran moyen et plus grand) */}
-      <nav className="hidden md:flex space-x-6 text-sm items-center text-black">
-           <Link href="/" className="hover:text-[#FFC059]">Home</Link>
-           <Link href="/about" className="hover:text-[#FFC059]">About us</Link>
-           <Link href="/rooms" className="hover:text-[#FFC059]">Rooms</Link>
-           <Link href="/events" className="hover:text-[#FFC059]">Events</Link>
-           <Link href="/cuisines" className="hover:text-[#FFC059]">Cuisines</Link>
-           <Link href="/contact" className="hover:text-[#FFC059]">Contact us</Link>
-         </nav>
+        <nav className="hidden md:flex space-x-6 text-sm items-center text-black">
+          <Link href="/" className="hover:text-[#FFC059]">Home</Link>
+          <Link href="/about" className="hover:text-[#FFC059]">About us</Link>
+          <Link href="/rooms" className="hover:text-[#FFC059]">Rooms</Link>
+          <Link href="/events" className="hover:text-[#FFC059]">Events</Link>
+          <Link href="/cuisines" className="hover:text-[#FFC059]">Cuisines</Link>
+          <Link href="/contact" className="hover:text-[#FFC059]">Contact us</Link>
+        </nav>
+
 
         {/* SECTION 3 : Boutons d’action visibles uniquement sur desktop */}
 <button className="bg-blue-700 text-white px-20 py-2 rounded-none hover:bg-blue-200 hover:text-black transition-colors duration-300">
